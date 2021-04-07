@@ -10,6 +10,12 @@ if marks_1 > THRESHOLD and marks_2 > THRESHOLD and marks_3 > THRESHOLD:
 else:
     status = "FAILED"
 
+grade = "A"
+
+if avg < 70 and avg >= 50:
+    grade = "B"
+else:
+    grade = "C"
 
 print("==================")
 print("====Report====")
@@ -18,6 +24,7 @@ print("Marks_2    : " + str(marks_2))
 print("Marks_3    : " + str(marks_3))
 print("total      : " + str(total))
 print("Percentage : " + str(avg))
-print("status     : " + str(status))
+print("status     : " + status)
+print("grade      : " + grade)
 
 
