@@ -1,6 +1,10 @@
 def print_interest(p,n,r):
     si = (p*n*r)/100
-    print(f"simple interest is = {si} %")
+    i = 0
+    while(i<= si):
+        si = (((p*n*r)/100)+1-1) 
+        i = i + 1
+        print(f"simple interest is = {si} %")
 
 def main():
     p = int(input("Enter p: "))
@@ -10,8 +14,3 @@ def main():
     print_interest(p,n,r)
 
 main()
-
-
-##Accept p, n and r
-##si = pnr/100
-##print si

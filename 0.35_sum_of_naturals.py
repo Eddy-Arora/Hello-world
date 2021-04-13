@@ -1,6 +1,6 @@
 def print_sum(n):
     sum = (n * (n+1)) /2
-    print(f"sum of first {n} Natural numbers * {sum}")
+    print(f"sum of first {n} Natural numbers  {sum}")
 
 
 def main():
