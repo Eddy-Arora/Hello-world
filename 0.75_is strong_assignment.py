@@ -10,8 +10,8 @@ def get_armstrong(n):
 
 def main():
     print("**Is armstrong**")
-    print(f"371 ------> {get_armstrong(371)}")
-    print(f"1634 ------> {get_armstrong(1634)}")
-    print(f"153 ------> {get_armstrong(153)}")
+    print(f"871 ------> {get_armstrong(371)}")
+    print(f"14445 ------> {get_armstrong(1634)}")
+    print(f"143 ------> {get_armstrong(153)}")
 
 main()

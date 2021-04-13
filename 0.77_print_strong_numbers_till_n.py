@@ -7,7 +7,7 @@ def get_factorial(n):
 def is_Strong(n):
     i=n
     sum = 0
-    while i >0:
+    while i > 0:
         rem =  i % 10
         sum += get_factorial(rem)
         i //=10
@@ -19,7 +19,7 @@ def is_Strong(n):
 
 def main():
     n=int(input("Enter value of n: "))
-    for num in range(1,n+1,1):
+    for num in range(1 , n+1 ,1):
         if is_Strong(num):
             print(num)
 

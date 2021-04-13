@@ -1,8 +1,8 @@
 def get_perfect(n):
     i=1
     y = 0
-    while (i<n):
-        if n%i == 0:
+    while (i < n):
+        if n % i == 0:
             y = y + i
         i = i + 1
       

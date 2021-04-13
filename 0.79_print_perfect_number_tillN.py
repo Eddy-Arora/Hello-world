@@ -18,7 +18,7 @@ def is_perfect(n):
 
 def main():
     n=int(input("Enter the value of n: "))
-    for num in range(1,n+1,1):
+    for num in range(1, n+1, 1):
         if is_perfect(num):
             print(num)
         
