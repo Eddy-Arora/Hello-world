@@ -1,15 +1,12 @@
-##assignment
-names =["A","B","C","D"]
-wishes = ["Good morning", "Good afternoon", "Good evening", "Good night"]
 
+names = ["Aaditya", "Rahul", "Yash", "Rishanh"]
+wishes= ["Good morning","Good morning","Good night","Good afternoon"]
 for name in names:
     print(name)
-
 for wish in wishes:
-    print(wishes)
+    print(wish)
 
-print("-------")
+print("----------")
 for i in range(4):
-    print(f"{i}. {names{wishes]}")
-
+    print(f"{i}. {wishes[i]} {names[i]}")
 
